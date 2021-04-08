@@ -1,0 +1,4 @@
+total 0
+6192449488665115 drwxrwxrwx 1 balgradean balgradean 512 Apr  8 14:44 .
+1407374883553287 drwxrwxrwx 1 balgradean balgradean 512 Apr  8 13:55 ..
+ 562949954454342 drwxrwxrwx 1 balgradean balgradean 512 Apr  8 14:55 Nokia-Lab
