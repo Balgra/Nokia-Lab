@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SJXven8bozJRHxY7RSceYJ1Jm63f2zM4lJuEJRYr2Vvd/nqEyLesrVJi0r/7gNYlYdmI2Jpov2N6FT0REKAE1w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Balgradean Andrei\\RiderProjects\\Bowling\\MyConsolapp\\MyConsolapp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Balgradean Andrei\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
