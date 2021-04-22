@@ -1,0 +1,4 @@
+Hello there.
+The following are some diagrams to the problem of designing an elevator.
+
+I had a lot of fun doing it and it helped me understand more about System Engineering
