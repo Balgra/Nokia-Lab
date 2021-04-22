@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VSErrIdDXHl0MWgpnfNby8Y7U/hwF5d6TdpdFfanwcRjSUjn//RsYUGFn1MkfAajMslhKyc7K6H0edsh/glz9g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Balgradean Andrei\\RiderProjects\\Bowling\\ClassLibrary1\\ClassLibrary1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Balgradean Andrei\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
