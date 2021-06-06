@@ -1,5 +1,5 @@
 /*
-//lab 2 slide 4;
+
 #include <iostream>
 
 class Human
@@ -45,7 +45,6 @@ int main()
 	return 0;
 }*/
 
-// lab 2 slide 6;
 /*#include<iostream>
 
 struct cars
@@ -81,7 +80,6 @@ int main()
 	return 0;
 }*/
 
-//lab 2 slide 9
 /*
 #include<iostream>
 
@@ -124,7 +122,6 @@ int main()
 }*/
 
 
-// lab 2 slide 12
 
 #include<iostream>
 #include<string>
