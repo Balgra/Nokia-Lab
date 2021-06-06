@@ -5,7 +5,6 @@
 int main()
 {
 
-	//lab 3 work with tupples;
 	std::tuple<int,char>foo(10,'x');
 	auto bar= std::make_tuple("test",3.1, 14, 'y');
 
@@ -32,7 +31,6 @@ int main()
 
 
 
-//lab 3 slide 4
 
 /*Implement a database with 5 entries representing characteristics of your favourite objects.
 NOTE: There must be at least 5 characteristics.
@@ -92,7 +90,6 @@ int main()
 */
 
 
-// lab 3 slide 5
 
 /*Make a vector of pairs (ints);
 2Sort the vector by the first element in the pair;
@@ -164,8 +161,6 @@ int main()
 }*/
 
 
-//lab 3 slide 17;
-
 /*#include<iostream>
 #include<vector>
 #include<string>
@@ -182,7 +177,3 @@ class Student
 
 }
 
-int main()
-{
-
-}*/
