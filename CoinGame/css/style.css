@@ -1,0 +1,204 @@
+/***** Global *****/
+
+/* Body */
+body {
+	background: #F5F4EF /*url('../images/bg.png')*/;
+	color: #000305;
+	font-size: 87.5%; /* Base font size: 14px */
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.429;
+	display: block;
+	margin: 8px;
+	padding: 0;
+	text-align: left;
+} 
+
+body:focus {
+    outline: none;
+}
+
+.container {
+	display: inline-block;
+	margin-left: 0px;
+	background: url('../images/3.png');
+	background-size: 60px 60px;
+} 
+
+.draggable {
+	width: 60px;
+	height: 60px;
+	background: url('../images/euro.png');
+	background-size: cover;
+	float: left;
+	z-index: 0;
+} 
+
+.draggable-red {
+	width: 60px;
+	height: 60px;
+	background: url('../images/red.png');
+	background-size: cover;
+	float: left;
+	z-index: 0;
+}
+
+.draggable-green {
+	width: 60px;
+	height: 60px;
+	background: url('../images/green.png');
+	background-size: cover;
+	float: left;
+	z-index: 0;
+}
+
+.droppable-even {
+	position: relative;
+	width: 70px;
+	height: 70px;
+	background: url('../images/1.png');
+	background-size: cover;
+	float: left;
+	z-index: -10;
+} 
+
+.droppable-odd {
+	position: relative;
+	width: 70px;
+	height: 70px;
+	background: url('../images/2.png');
+	background-size: cover;
+	float: left;
+	z-index: -10;
+}  
+
+#grid {
+	border: 2px solid #ccc;
+	width: auto;
+	height: auto;
+	display: inline-block;
+} 
+
+#clear {
+	clear: both;
+} 
+ 
+
+#title {
+	font-family: 'Rancho';
+	font-size: 2.8em;
+} 
+
+/* Headings */
+h2 {font-size: 1.571em;} /* 22px */
+h3 {font-size: 1.429em;} /* 20px */
+h4 {font-size: 1.286em;} /* 18px */
+h5 {font-size: 1.143em;} /* 16px */
+h6 {font-size: 1em;} /* 14px */ 
+
+h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+/* Anchors */
+a {outline: 0;}
+a img {border: 0px; text-decoration: none;}
+a:link, a:visited {
+	color: #C74350;
+	padding: 0 1px;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background-color: #C74350;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #333;
+} 
+
+/* Paragraphs */
+p {margin-bottom: 1.143em;}
+* p:last-child {margin-bottom: 0;} 
+
+strong, b {font-weight: bold;}
+em, i {font-style: italic;}
+
+::-moz-selection {background: #F6CF74; color: #fff;}
+::selection {background: #F6CF74; color: #fff;} 
+
+/* Lists */
+ul {
+	list-style: outside disc;
+	margin: 1em 0 1.5em 0;
+	display: inline;
+	padding: 0;
+	margin-top: 40px;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+ol {
+	font-family: 'Rancho';
+	list-style: outside decimal;
+	margin: 1em 0 1.5em 1.5em;
+} 
+
+ul li {
+	font-family: 'Rancho';
+	font-size: 1.6em;
+	list-style: none;
+	display: inline-block;
+	padding: 5px 15px;
+	margin: 2px 0;
+	background: orange;
+	border-radius: 5px;
+} 
+
+ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 10px;
+	text-align: center;
+} 
+
+h2 {
+	margin: 10px;
+} 
+
+p {
+	margin-left: 10px;
+}
+
+.game-container {
+	position: relative;
+	margin: 10px 20px;
+} 
+
+.game-view {
+	padding: 10px;
+} 
+
+.game-view.ng-animate {
+	transition: all ease 0.4s;
+	position: relative;
+}
+
+.game-view.ng-enter {
+	top: 200px;
+	opacity: 0;
+} 
+
+.game-view.ng-leave,
+.game-view.ng-enter.ng-enter-active {
+	top: 0;
+	opacity: 1;
+} 
+
+.game-view.ng-leave.ng-leave-active {
+	top: -200px;
+	opacity: 0;
+}
