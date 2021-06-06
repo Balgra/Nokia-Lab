@@ -1,0 +1,6 @@
+1. Pe fiecare linie trebuie sa fie plasate exact 2 fise
+2. Pe fiecare coloana trebuie sa fie plasate exact 2 fise
+3. Pe fiecare dintre cele doua diagonale principale trebuie sa fie plasate exact 2 fise
+
+
+

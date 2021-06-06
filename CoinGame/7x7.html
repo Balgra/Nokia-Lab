@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset="utf-8">
+  <title>Liga AC 2021 : Doua pe linie</title>
+  <!-- Fonts -->
+  <!--link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float" rel="stylesheet" type="text/css"-->
+  <!-- jQuery css -->
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <!-- My Styles -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- javascript files -->
+  <script src="js/jquery-1.12.4.js"></script>
+  <script src="js/jquery-ui.js"></script>
+</head>
+
+<body onload="getGridPosition()">
+<center> 
+
+<div id="title" class="font-effect-shadow-multiple">Dou&#259; pe linie</div>
+
+	<header>
+		<nav>
+			<ul>
+				<li><a href="4x4.html"> 4 x 4 </a></li>
+				<li><a href="5x5.html"> 5 x 5 </a></li>
+				<li><a href="6x6.html"> 6 x 6 </a></li>
+				<li><a href="7x7.html"> 7 x 7 </a></li>
+				<li><a href="8x8.html"> 8 x 8 </a></li>
+			</ul>
+		</nav>
+	</header>
+
+<h3>A&#351;eaz&#259; toate fisele &icirc;n grila de mai jos, astfel &icirc;nc&acirc;t pe fiecare linie <br />
+orizontal&#259;, vertical&#259; sau diagonal&#259; (mare) s&#259; fie plasate exact 2 fise.</h3>
+
+<div id="clear"></div> 
+
+<div class="container">
+	<div id="draggable1" class="draggable" onmouseUp="mouseUp(1)" onmouseDown="mouseDown(1)"></div>
+	<div id="draggable2" class="draggable" onmouseUp="mouseUp(2)" onmouseDown="mouseDown(2)"></div>
+	<div id="draggable3" class="draggable" onmouseUp="mouseUp(3)" onmouseDown="mouseDown(3)"></div>
+	<div id="draggable4" class="draggable" onmouseUp="mouseUp(4)" onmouseDown="mouseDown(4)"></div>
+	<div id="draggable5" class="draggable" onmouseUp="mouseUp(5)" onmouseDown="mouseDown(5)"></div>
+	<div id="draggable6" class="draggable" onmouseUp="mouseUp(6)" onmouseDown="mouseDown(6)"></div>
+	<div id="draggable7" class="draggable" onmouseUp="mouseUp(7)" onmouseDown="mouseDown(7)"></div>
+</div>
+
+<div id="clear"></div>
+
+<div class="container">
+	<div id="draggable8" class="draggable" onmouseUp="mouseUp(8)" onmouseDown="mouseDown(8)"></div>
+	<div id="draggable9" class="draggable" onmouseUp="mouseUp(9)" onmouseDown="mouseDown(9)"></div>
+	<div id="draggable10" class="draggable" onmouseUp="mouseUp(10)" onmouseDown="mouseDown(10)"></div>
+	<div id="draggable11" class="draggable" onmouseUp="mouseUp(11)" onmouseDown="mouseDown(11)"></div>
+	<div id="draggable12" class="draggable" onmouseUp="mouseUp(12)" onmouseDown="mouseDown(12)"></div>
+	<div id="draggable13" class="draggable" onmouseUp="mouseUp(13)" onmouseDown="mouseDown(13)"></div>
+	<div id="draggable14" class="draggable" onmouseUp="mouseUp(14)" onmouseDown="mouseDown(14)"></div>
+</div>
+
+	<div id="clear"></div>
+
+	<div id="grid" onclick="clicked()">
+		<div id="droppable11" class="droppable-even"></div>
+		<div id="droppable12" class="droppable-odd"></div>
+		<div id="droppable13" class="droppable-even"></div>
+		<div id="droppable14" class="droppable-odd"></div>
+		<div id="droppable15" class="droppable-even"></div>
+		<div id="droppable16" class="droppable-odd"></div>
+		<div id="droppable17" class="droppable-even"></div>
+		<div id="clear"></div>
+		<div id="droppable21" class="droppable-odd"></div>
+		<div id="droppable22" class="droppable-even"></div>
+		<div id="droppable23" class="droppable-odd"></div>
+		<div id="droppable24" class="droppable-even"></div>
+		<div id="droppable25" class="droppable-odd"></div>
+		<div id="droppable26" class="droppable-even"></div>
+		<div id="droppable27" class="droppable-odd"></div>
+		<div id="clear"></div>
+		<div id="droppable31" class="droppable-even"></div>
+		<div id="droppable32" class="droppable-odd"></div>
+		<div id="droppable33" class="droppable-even"></div>
+		<div id="droppable34" class="droppable-odd"></div>
+		<div id="droppable35" class="droppable-even"></div>
+		<div id="droppable36" class="droppable-odd"></div>
+		<div id="droppable37" class="droppable-even"></div>
+		<div id="clear"></div>
+		<div id="droppable41" class="droppable-odd"></div>
+		<div id="droppable42" class="droppable-even"></div>
+		<div id="droppable43" class="droppable-odd"></div>
+		<div id="droppable44" class="droppable-even"></div>
+		<div id="droppable45" class="droppable-odd"></div>
+		<div id="droppable46" class="droppable-even"></div>
+		<div id="droppable47" class="droppable-odd"></div>
+		<div id="clear"></div>
+		<div id="droppable51" class="droppable-even"></div>
+		<div id="droppable52" class="droppable-odd"></div>
+		<div id="droppable53" class="droppable-even"></div>
+		<div id="droppable54" class="droppable-odd"></div>
+		<div id="droppable55" class="droppable-even"></div>
+		<div id="droppable56" class="droppable-odd"></div>
+		<div id="droppable57" class="droppable-even"></div>
+
+		<div id="clear"></div>
+		<div id="droppable61" class="droppable-odd"></div>
+		<div id="droppable62" class="droppable-even"></div>
+		<div id="droppable63" class="droppable-odd"></div>
+		<div id="droppable64" class="droppable-even"></div>
+		<div id="droppable65" class="droppable-odd"></div>
+		<div id="droppable66" class="droppable-even"></div>
+		<div id="droppable67" class="droppable-odd"></div>
+
+		<div id="clear"></div>
+		<div id="droppable71" class="droppable-even"></div>
+		<div id="droppable72" class="droppable-odd"></div>
+		<div id="droppable73" class="droppable-even"></div>
+		<div id="droppable74" class="droppable-odd"></div>
+		<div id="droppable75" class="droppable-even"></div>
+		<div id="droppable76" class="droppable-odd"></div>
+		<div id="droppable77" class="droppable-even"></div>
+	</div>
+
+	<div id="clear"></div>
+
+	<h3>
+	<span id="mutari">Mut&#259;ri: #</span>
+	<span style="margin-left:20px;" onclick="undo()"><a href="#"><u>Undo</u></a></span>
+	<span style="margin-left:140px;" onclick="solve()"><a href="#"><u>Solve</u></a></span>
+	<span style="margin-left:20px;" onclick="check_restart()"><a href="#"><u>Restart</u></a></span>
+</h3>
+
+<h3 id="done"></h3> 
+<h3 id="errors"></h3>
+<h3 id="checkRestart" onclick="restart()"><a href="#"></a></h3>
+
+	<script src="js/main.js"></script>
+	<script>
+
+		onInit(14);
+		getGridPosition();
+	</script>
+
+<div style="position:fixed;top:500px;float:left;width:70px;">
+	<img src="images/red.png" onclick="changeFisa('draggable-red')">
+	<img src="images/green.png" onclick="changeFisa('draggable-green')" >
+	<img src="images/euro.png" style="width:56px;height:56px;" onclick="changeFisa('draggable')" >
+</div>
+
+</body>
+</html>
